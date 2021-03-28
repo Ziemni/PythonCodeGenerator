@@ -4,7 +4,7 @@
 Python script that generates Python code based on templates. I use it in my research related to Neural Network. It's not perfect but gets the job done.
 
 ## Usage
-`python pythonGenerator.py <lines> <in_file> <out_file>`
+`python pythonGenerator.py <lines> <in_file>`
 - `line` - Number of lines to generate per template.
 - `in_file` - File that contains templates.
 
