@@ -3,7 +3,7 @@ import sys
 import random
 
 def printUsage():
-    print('Usage: python pythonGenerator.py <lines> <in_file> <out_file>')
+    print('Usage: python pythonGenerator.py <lines> <in_file>')
     print('    lines - Number of lines to generate per template')
     print('    in_file - that contains templates')
     quit()
@@ -33,12 +33,6 @@ except ValueError:
     printUsage()
 
 in_file = sys.argv[2]
-
-try:
-    out_file = sys.argv[3]
-except:
-    pass
-
 
 
 templates = open(in_file, 'r').readlines()
